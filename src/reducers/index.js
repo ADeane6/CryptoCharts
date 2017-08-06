@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
 
 //reducers
-import WeatherReducer from './reducer_weather'
+import PriceReducer from './reducer_price'
 
 const rootReducer = combineReducers({
-  weather: WeatherReducer
+  price: PriceReducer
 });
 
 export default rootReducer;
